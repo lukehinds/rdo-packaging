@@ -13,20 +13,16 @@ Source0:        http://tarballs.openstack.org/%{pypi_name}/%{pypi_name}-%{upstre
 
 BuildArch:      noarch
 
-BuildConflicts: python-oslosphinx = 3.4.0
-BuildConflicts: python-sphinx = 1.2.0
-BuildConflicts: python-sphinx = 1.3b1
-BuildRequires:  python-coverage >= 3.6
-BuildRequires:  python-hacking >= 0.10.0
-BuildRequires:  python-oslo-sphinx >= 2.5.0
-BuildRequires:  python-oslotest >= 1.10.0
-BuildRequires:  python-pbr >= 1.8
+BuildRequires:  python-coverage
+BuildRequires:  python-hacking
+BuildRequires:  python-oslo-sphinx
+BuildRequires:  python-oslotest 
+BuildRequires:  python-pbr
 BuildRequires:  python-setuptools
-BuildRequires:  python-sphinx >= 1.1.2
-BuildRequires:  python-subunit >= 0.0.18
-BuildRequires:  python-testrepository >= 0.0.18
-BuildRequires:  python-testscenarios >= 0.4
-BuildRequires:  python-testtools >= 1.4.0
+BuildRequires:  python-subunit
+BuildRequires:  python-testrepository
+BuildRequires:  python-testscenarios
+BuildRequires:  python-testtools
 BuildRequires:  python2-devel
 BuildRequires:  python-sphinx
 
